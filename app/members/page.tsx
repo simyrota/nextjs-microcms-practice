@@ -16,7 +16,7 @@ export default async function Page() {
             <li key={member.id} className={styles.list}>
               <Image
                 src={member.image.url}
-                alt={member.image.alt}
+                alt={member.name}
                 width={member.image.width}
                 height={member.image.height}
                 className={styles.image}
