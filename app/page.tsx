@@ -5,7 +5,7 @@ import styles from './page.module.css';
 import NewsList from './_components/NewsList';
 import ButtonLink from '@/app/_components/ButtonLink';
 
-// const data: { contents: News[] } = {
+export const revalidate = 60;
 //   contents: [
 //     {
 //       id: '1',
